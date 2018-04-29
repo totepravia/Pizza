@@ -12,6 +12,10 @@
 		573308E5209482BA00E345BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573308E3209482BA00E345BB /* Main.storyboard */; };
 		573308E7209482BB00E345BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573308E6209482BB00E345BB /* Assets.xcassets */; };
 		573308EA209482BB00E345BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573308E8209482BB00E345BB /* LaunchScreen.storyboard */; };
+		573308F220948BAD00E345BB /* VistaResultado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573308F120948BAD00E345BB /* VistaResultado.swift */; };
+		573308F420948C2A00E345BB /* VistaMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573308F320948C2A00E345BB /* VistaMasa.swift */; };
+		573308F6209494F900E345BB /* VistaQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573308F5209494F900E345BB /* VistaQueso.swift */; };
+		573308F82094951500E345BB /* VistaIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573308F72094951500E345BB /* VistaIngredientes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		573308E6209482BB00E345BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		573308E9209482BB00E345BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		573308EB209482BB00E345BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		573308F120948BAD00E345BB /* VistaResultado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaResultado.swift; sourceTree = "<group>"; };
+		573308F320948C2A00E345BB /* VistaMasa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaMasa.swift; sourceTree = "<group>"; };
+		573308F5209494F900E345BB /* VistaQueso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaQueso.swift; sourceTree = "<group>"; };
+		573308F72094951500E345BB /* VistaIngredientes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaIngredientes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				573308E6209482BB00E345BB /* Assets.xcassets */,
 				573308E8209482BB00E345BB /* LaunchScreen.storyboard */,
 				573308EB209482BB00E345BB /* Info.plist */,
+				573308F120948BAD00E345BB /* VistaResultado.swift */,
+				573308F320948C2A00E345BB /* VistaMasa.swift */,
+				573308F5209494F900E345BB /* VistaQueso.swift */,
+				573308F72094951500E345BB /* VistaIngredientes.swift */,
 			);
 			path = Pizza;
 			sourceTree = "<group>";
@@ -136,7 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				573308E2209482BA00E345BB /* ViewController.swift in Sources */,
+				573308F6209494F900E345BB /* VistaQueso.swift in Sources */,
+				573308F82094951500E345BB /* VistaIngredientes.swift in Sources */,
+				573308F220948BAD00E345BB /* VistaResultado.swift in Sources */,
 				573308E0209482BA00E345BB /* AppDelegate.swift in Sources */,
+				573308F420948C2A00E345BB /* VistaMasa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
